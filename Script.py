@@ -312,7 +312,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 🎞 <b>ʀᴀᴛɪɴɢ   :</b> {rating}
 {episodes}
 
-<blockquote>〽️ Powered by {bot_link}</blockquote>
+<blockquote>〽️ Powered by @Gojo_Saturo_781_bot</blockquote>
 """
 
 
