@@ -300,7 +300,6 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
-<a hMOVIE_UPDATE_NOTIFY_TXT = """
 <a href="{poster_url}">⠀</a>
 
 <blockquote>📥 NEW FILE ADDED ✅</blockquote>
@@ -314,7 +313,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 🎞 <b>ʀᴀᴛɪɴɢ   :</b> {rating}
 {episodes}
 
-<blockquote>〽️ Powered by {@Gojo_Saturo_781_bot}</blockquote>
+<blockquote>〽️ Powered by {bot _link}</blockquote>
 """
 
 
