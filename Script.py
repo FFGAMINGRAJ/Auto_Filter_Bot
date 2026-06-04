@@ -313,6 +313,7 @@ MOVIE_UPDATE_NOTIFY_TXT = """
 <b>⚡ Powered by @Gojo_Saturo_781_bot ❞</b>
 """
 
+
     IMDB_TEMPLATE_TXT = """<b><a href={url}>{title} (<a href={url}/releaseinfo>{year}</a>)
 
 ʀᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a>
