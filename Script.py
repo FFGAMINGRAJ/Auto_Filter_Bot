@@ -300,16 +300,17 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
-📥 <b>𝖭𝖤𝖶 {tag} 𝖠𝖣𝖣𝖤𝖣</b> ✅
+<b>📥 <a href="{imdb_url}">NEW {tag} ADDED</a></b>
 <a href="{poster_url}">⠀</a>
-🫥  <code>{filename}</code> ⿻  | ⭐ <a href="{imdb_url}">ɪᴍᴅʙ ɪɴғᴏ</a>
-
-🎭 <b>ɢᴇɴʀᴇs :</b> {genres}
-🌐 <b>ᴏᴛᴛ        :</b> {ott}
-📽 <b>ǫᴜᴀʟɪᴛʏ :</b> {quality}
-🔊 <b>ᴀᴜᴅɪᴏ    :</b> {language}
-🎞 <b>ʀᴀᴛɪɴɢ   :</b> {rating}
-{episodes}
+✨ <b>ᴛɪᴛʟᴇ :</b> <code>{filename}</code>
+─┉─•✦•─┉─
+<blockquote>🎭 <b>ɢᴇɴʀᴇs :</b> {genres}
+🍿 <b>ᴏᴛᴛ :</b> {ott}
+🎬 <b>ǫᴜᴀʟɪᴛʏ :</b> {quality}
+🔉 <b>ᴀᴜᴅɪᴏ :</b> {language}
+🌟 <b>ʀᴀᴛɪɴɢ :</b> {rating}
+{episodes}</blockquote>
+─┉─•✦•─┉─
 
 🔍 <b>Sᴇᴀʀᴄʜ →</b> {search_link}
 """
