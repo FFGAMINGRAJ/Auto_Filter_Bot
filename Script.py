@@ -300,20 +300,30 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
-📥 <b>𝖭𝖤𝖶 {tag} 𝖠𝖣𝖣𝖤𝖣</b> ✅
-<a href="{poster_url}">⠀</a>
-🫥  <code>{filename}</code> ⿻  | ⭐ <a href="{imdb_url}">ɪᴍᴅʙ ɪɴғᴏ</a>
+<a href="{poster_url}">‎</a>
 
-🎭🎭 <b>ɢᴇɴʀᴇs :</b> {genres}
-🌐 <b>ᴏᴛᴛ        :</b> {ott}
-📽 <b>ǫᴜᴀʟɪᴛʏ :</b> {quality}
-🔊 <b>ᴀᴜᴅɪᴏ    :</b> {language}
-🎞 <b>ʀᴀᴛɪɴɢ   :</b> {rating}
-{episodes}
+<blockquote><b>📥 NEW FILE ADDED ✅</b></blockquote>
 
-<blockquote>〽️ Powered by - @Gojo_Saturo_781_bot</blockquote>
+🎬 <b>{filename} ({year})</b> | ⭐  
 
+<b>IMDB INFO</b>
 
+🎭 <b>GENRES :</b> {genres}
+🌐 <b>OTT :</b> {ott}
+
+🎞️ <b>QUALITY :</b> {quality}
+
+🎧 <b>AUDIO :</b> {language}
+
+⭐ <b>RATING :</b> {rating}
+⏱️ <b>DURATION :</b> {duration}
+
+━━━━━━━━━━━━━━━━━━
+
+⚡ Powered by - <b>{channel_name}</b>
+
+🕒 {date} | {time}
+"""
 
 
     IMDB_TEMPLATE_TXT = """<b><a href={url}>{title} (<a href={url}/releaseinfo>{year}</a>)
