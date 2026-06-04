@@ -300,23 +300,21 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
+<a hMOVIE_UPDATE_NOTIFY_TXT = """
 <a href="{poster_url}">⠀</a>
 
 <blockquote>📥 NEW FILE ADDED ✅</blockquote>
 
 🫥 <code>{filename}</code> ⿻ | ⭐ <a href="{imdb_url}"><b>IMDB INFO</b></a>
 
-🎭 <b>GENRES :</b> {genres}
-🌐 <b>OTT :</b> {ott}
-🎥 <b>QUALITY :</b> {quality}
-🔊 <b>AUDIO :</b> {language}
-📼 <b>RATING :</b> {rating}
-📺 <b>EPISODES :</b>
+🎭 <b>ɢᴇɴʀᴇs :</b> {genres}
+🌐 <b>ᴏᴛᴛ        :</b> {ott}
+📽 <b>ǫᴜᴀʟɪᴛʏ :</b> {quality}
+🔊 <b>ᴀᴜᴅɪᴏ    :</b> {language}
+🎞 <b>ʀᴀᴛɪɴɢ   :</b> {rating}
 {episodes}
 
-<blockquote>〽️ Powered by {search_link}</blockquote>
-
-🕒 {date} | {time}
+<blockquote>〽️ Powered by {@Gojo_Saturo_781_bot}</blockquote>
 """
 
 
