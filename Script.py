@@ -299,21 +299,17 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     CAPTION = """<b><a href="https://t.me/dreamxbotz">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/dreamxbotz">[ ᴅʀᴇᴀᴍxʙᴏᴛᴢ ]</a></b>"""
 
     
-    MOVIE_UPDATE_NOTIFY_TXT = """
-</b><a href={poster_url}>📥</a><a href={imdb_url}>New {tag} Added</a></b>
+    MOVIE_UPDATE_NOTIFY_TXT = """📥 <b>NEW FILE ADDED ✅ ❞</b>
 
-<blockquote>✨ ᴛɪᴛʟᴇ : <code>{filename} {year}</code>
+👤 <b>{filename}</b> | ⭐ <a href="{imdb_url}"><b>IMDB INFO</b></a>
 
-🎭 ɢᴇɴʀᴇs : <b>{genres}</b>
-📺 ᴏᴛᴛ        : <b>{ott}</b>
-🎞️ ǫᴜᴀʟɪᴛʏ : <b>{quality}</b>
-🎧 ᴀᴜᴅɪᴏ    : <b>{language}</b>
-🔥 ʀᴀᴛɪɴɢ   : <b>{rating}</b>
-{episodes}
-</blockquote>
+🎭 <b>GENRES :</b> {genres}
+🌐 <b>OTT    :</b> {ott}
+🎬 <b>QUALITY:</b> {quality}
+🔊 <b>AUDIO  :</b> {language}
+📦 <b>RATING :</b> {rating}
 
-🔍 <b>Sᴇᴀʀᴄʜ →</b> {search_link}
-"""
+⚡ <b>Powered by @Gojo_Saturo_781_bot ❞</b>"""
 
 
     IMDB_TEMPLATE_TXT = """<b><a href={url}>{title} (<a href={url}/releaseinfo>{year}</a>)
