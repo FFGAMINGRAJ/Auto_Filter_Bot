@@ -300,27 +300,21 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
-<a href="{poster_url}">‎</a>
+<a href="{poster_url}">⠀</a>
 
-<blockquote><b>📥 NEW FILE ADDED ✅</b></blockquote>
+<blockquote>📥 NEW FILE ADDED ✅</blockquote>
 
-🎬 <b>{filename} ({year})</b> | ⭐  
-
-<b>IMDB INFO</b>
+🫥 <code>{filename}</code> ⿻ | ⭐ <a href="{imdb_url}"><b>IMDB INFO</b></a>
 
 🎭 <b>GENRES :</b> {genres}
 🌐 <b>OTT :</b> {ott}
+🎥 <b>QUALITY :</b> {quality}
+🔊 <b>AUDIO :</b> {language}
+📼 <b>RATING :</b> {rating}
+📺 <b>EPISODES :</b>
+{episodes}
 
-🎞️ <b>QUALITY :</b> {quality}
-
-🎧 <b>AUDIO :</b> {language}
-
-⭐ <b>RATING :</b> {rating}
-⏱️ <b>DURATION :</b> {duration}
-
-━━━━━━━━━━━━━━━━━━
-
-⚡ Powered by - <b>{channel_name}</b>
+<blockquote>〽️ Powered by {search_link}</blockquote>
 
 🕒 {date} | {time}
 """
