@@ -302,7 +302,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     MOVIE_UPDATE_NOTIFY_TXT = """
 <a href="{poster_url}">⠀</a>
 
-<blockquote>📥 NEW FILE ADDED ✅</blockquote>
+<blockquote><b>📥 NEW FILE ADDED ✅</b></blockquote>
 
 🧐 <code>{filename}</code>
 ⿻ | ⭐ <a href="{imdb_url}"><b>IMDB INFO</b></a>
@@ -317,7 +317,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 📼 <b>RATING  :</b> {rating}
 🎬 <b>EPISODES :</b> {episodes}
 
-<blockquote>〽️ Powered by - <a href="{bot_link}">{bot_name}</a></blockquote>
+<blockquote><b>〽️ Powered by</b> <code>@Gojo_Saturo_781_bot</code></blockquote>
 
 🕒 {date} | {time}
 """
