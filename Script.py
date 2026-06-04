@@ -304,7 +304,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
 <blockquote>📥 NEW FILE ADDED ✅</blockquote>
 
-🫥 <code>{filename}</code>
+🧐 <code>{filename}</code>
 ⿻ | ⭐ <a href="{imdb_url}"><b>IMDB INFO</b></a>
 
 🎭 <b>GENRES :</b> {genres}
@@ -315,7 +315,6 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 🔊 <b>AUDIO   :</b> {language}
 
 📼 <b>RATING  :</b> {rating}
-⏱️ <b>DURATION :</b> {duration}
 🎬 <b>EPISODES :</b> {episodes}
 
 <blockquote>〽️ Powered by - <a href="{bot_link}">{bot_name}</a></blockquote>
