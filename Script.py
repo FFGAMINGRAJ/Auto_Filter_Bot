@@ -300,9 +300,8 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
-📥 <b>𝖭𝖤𝖶 FILE 𝖠𝖣𝖣𝖤𝖣</b> ✅
-<a href="{poster_url}">⠀</a>
-🫥 <code>{filename}</code>
+<blockquote><b>📥 𝖭𝖤𝖶 FILE 𝖠𝖣𝖣𝖤D✅</b></blockquote> <a href="{poster_url}">⠀</a>
+🫥  <code>{filename}</code>
 ⿻ | ⭐ <a href="{imdb_url}"><b>ɪᴍᴅʙ ɪɴғᴏ</b></a>
 
 🎭 <b>ɢᴇɴʀᴇs :</b> {genres}
