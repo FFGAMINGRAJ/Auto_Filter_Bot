@@ -301,8 +301,8 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
     MOVIE_UPDATE_NOTIFY_TXT = """
 <a href="{poster_url}">⠀</a>
-
-<blockquote><b>📥 NEW FILE ADDED ✅</b></blockquote>
+MOVIE_UPDATE_NOTIFY_TXT = """
+<blockquote><b>📥 NEW FILE ADDED ✅</b></blockquote> <a href="{poster_url}">⠀</a>
 
 🫥 <code>{filename}</code> ⿻ | ⭐ <a href="{imdb_url}"><b>ɪᴍᴅʙ ɪɴғᴏ</b></a>
 
