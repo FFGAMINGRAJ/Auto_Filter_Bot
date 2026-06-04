@@ -304,7 +304,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
 <blockquote><b>📥 NEW FILE ADDED ✅</b></blockquote>
 
-🧐 <code>{filename}</code>
+🫥 <code>{filename}</code>
 ⿻ | ⭐ <a href="{imdb_url}"><b>IMDB INFO</b></a>
 
 🎭 <b>GENRES :</b> {genres}
