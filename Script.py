@@ -300,11 +300,10 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
-<a href="{poster_url}">⠀</a>
-
 <blockquote>📥 NEW FILE ADDED ✅</blockquote>
 
-🫥 <code>{filename}</code> ⿻ | ⭐ <a href="{imdb_url}"><b>IMDB INFO</b></a>
+<a href="{poster_url}">⠀</a>
+🫥  <code>{filename}</code> ⿻  | ⭐ <a href="{imdb_url}">ɪᴍᴅʙ ɪɴғᴏ</a>
 
 🎭 <b>ɢᴇɴʀᴇs :</b> {genres}
 🌐 <b>ᴏᴛᴛ        :</b> {ott}
@@ -313,7 +312,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 🎞 <b>ʀᴀᴛɪɴɢ   :</b> {rating}
 {episodes}
 
-<blockquote>〽️ Powered by {bot _link}</blockquote>
+<blockquote>〽️ Powered by {bot_link}</blockquote>
 """
 
 
