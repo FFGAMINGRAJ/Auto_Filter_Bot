@@ -302,15 +302,15 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 MOVIE_UPDATE_NOTIFY_TXT = """
 📥 <b>NEW FILE ADDED ✅ ❞</b>
 
-👤 <b>{filename}</b> | ⭐ <a href="{imdb_url}"><b>IMDB INFO</b></a>
+<b>{filename}</b> | ⭐ <a href="{imdb_url}"><b>IMDB INFO</b></a>
 
 🎭 <b>GENRES :</b> {genres}
-🌐 <b>OTT    :</b> {ott}
-🎬 <b>QUALITY:</b> {quality}
-🔊 <b>AUDIO  :</b> {language}
-📦 <b>RATING :</b> {rating}
+🌐 <b>OTT        :</b> {ott}
+🎬 <b>QUALITY :</b> {quality}
+🔊 <b>AUDIO    :</b> {language}
+📦 <b>RATING   :</b> {rating}
 
-<b>⚡ Powered by @Gojo_Saturo_781_bot ❞</b>
+<a href="{poster_url}"><b>Powered by @Gojo_Saturo_781_bot</b></a> ❞
 """
 
 
