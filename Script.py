@@ -318,8 +318,6 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 🎬 <b>EPISODES :</b> {episodes}
 
 <blockquote><b>〽️ Powered by</b> <code>@Gojo_Saturo_781_bot</code></blockquote>
-
-🕒 {date} | {time}
 """
 
 
