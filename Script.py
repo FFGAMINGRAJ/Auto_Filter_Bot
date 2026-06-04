@@ -304,14 +304,13 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
 <blockquote><b>📥 NEW FILE ADDED ✅</b></blockquote>
 
-🫥 <code>{filename}</code>
-⿻ | ⭐ <a href="{imdb_url}"><b>ɪᴍᴅʙ ɪɴғᴏ</b></a>
+🫥 <code>{filename}</code> ⿻ | ⭐ <a href="{imdb_url}"><b>ɪᴍᴅʙ ɪɴғᴏ</b></a>
 
 🎭 ɢᴇɴʀᴇs : <b>{genres}</b>
-🌐 ᴏᴛᴛ : <b>{ott}</b>
-🎥 ǫᴜᴀʟɪᴛʏ : <b>{quality}</b>
-🔊 ᴀᴜᴅɪᴏ : <b>{language}</b>
-📼 ʀᴀᴛɪɴɢ : <b>{rating}</b>
+🌐 ᴏᴛᴛ        : <b>{ott}</b>
+📽 ǫᴜᴀʟɪᴛʏ : <b>{quality}</b>
+🔊 ᴀᴜᴅɪᴏ    : <b>{language}</b>
+🎞 ʀᴀᴛɪɴɢ   : <b>{rating}</b>
 <b>{episodes}</b>
 
 <blockquote><b>〽️ Powered by @Gojo_Saturo_781_bot</b></blockquote>
