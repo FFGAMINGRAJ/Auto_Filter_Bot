@@ -300,7 +300,6 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
-<bloMOVIE_UPDATE_NOTIFY_TXT = """
 <blockquote><b>📥 NEW FILE ADDED ✅</b></blockquote> <a href="{poster_url}">⠀</a>
 
 🫥  <code>{filename}</code> <span>|</span> ⭐ <a href="{imdb_url}"><b>ɪᴍᴅʙ ɪɴғᴏ</b></a>
@@ -314,6 +313,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
 <blockquote><b>〽️ Powered by @Gojo_Saturo_781_bot</b></blockquote>
 """
+
 
 
     IMDB_TEMPLATE_TXT = """<b><a href={url}>{title} (<a href={url}/releaseinfo>{year}</a>)
