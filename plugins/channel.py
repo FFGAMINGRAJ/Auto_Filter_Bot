@@ -382,7 +382,8 @@ async def send_movie_update(bot, base_name):
                     photo=resized_poster,
                     caption=text,
                     reply_markup=buttons,
-                    parse_mode=enums.ParseMode.HTML
+                    parse_mode=enums.ParseMode.HTML,
+                    has_spoiler=True
                 )
                 is_photo = True
             else:
@@ -435,10 +436,11 @@ async def update_movie_message(bot, base_name):
             if is_photo:
                 await bot.edit_message_caption(
                     chat_id=MOVIE_UPDATE_CHANNEL,
-                    message_id=message_id,
+                    photo=resized_poster,
                     caption=text,
                     reply_markup=buttons,
-                    parse_mode=enums.ParseMode.HTML
+                    parse_mode=enums.ParseMode.HTML,
+                    has_spoiler=True
                 )
             else:
                 await bot.edit_message_text(
