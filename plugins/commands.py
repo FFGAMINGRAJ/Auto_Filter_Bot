@@ -451,23 +451,28 @@ async def start(client, message):
             reply_markup=InlineKeyboardMarkup(btn)
         )
         
-        k = await msg.reply(script.DEL_MSG.format(get_time(DELETE_TIME)),
-            quote=True, parse_mode=enums.ParseMode.HTML
+        k = await msg.reply(
+            script.DEL_MSG.format(get_time(DELETE_TIME)),
+            quote=True,
+            parse_mode=enums.ParseMode.HTML
         )
+
         await sticker.delete()
         await asyncio.sleep(DELETE_TIME)
         await msg.delete()
 
-try:
-    await k.edit_text(
-        "<b>ʏᴏᴜʀ ᴠɪᴅᴇᴏ / ꜰɪʟᴇ ɪꜱ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴅᴇʟᴇᴛᴇᴅ !!</b>"
-    )
-except Exception:
-    pass
+        try:
+            await k.edit_text(
+                "<b>ʏᴏᴜʀ ᴠɪᴅᴇᴏ / ꜰɪʟᴇ ɪꜱ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴅᴇʟᴇᴛᴇᴅ !!</b>"
+            )
+        except Exception:
+            pass
 
-return
+        return
+
     except StopPropagation:
         raise
+
     except Exception as e:
         logger.exception(f"Error In /start command - {e}")
         pass
