@@ -457,8 +457,15 @@ async def start(client, message):
         await sticker.delete()
         await asyncio.sleep(DELETE_TIME)
         await msg.delete()
-        await k.edit_text("<b>ʏᴏᴜʀ ᴠɪᴅᴇᴏ / ꜰɪʟᴇ ɪꜱ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴅᴇʟᴇᴛᴇᴅ !!</b>")
-        return
+
+try:
+    await k.edit_text(
+        "<b>ʏᴏᴜʀ ᴠɪᴅᴇᴏ / ꜰɪʟᴇ ɪꜱ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴅᴇʟᴇᴛᴇᴅ !!</b>"
+    )
+except Exception:
+    pass
+
+return
     except StopPropagation:
         raise
     except Exception as e:
