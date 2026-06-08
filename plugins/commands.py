@@ -132,12 +132,12 @@ async def start(client, message):
             except Exception:
                 PIC = random.choice(PICS)
             await message.reply_photo(
-                photo=PIC,
-                caption=script.START_TXT.format(message.from_user.mention, gtxt, temp.U_NAME, temp.B_NAME),
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-                has_spoiler=True
-            )
+        photo=PIC,
+        caption=script.START_TXT.format(message.from_user.mention, gtxt, temp.U_NAME, temp.B_NAME),
+        reply_markup=reply_markup,
+        parse_mode=enums.ParseMode.HTML,
+        has_spoiler=True
+        )
             return
 
         if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
@@ -166,12 +166,12 @@ async def start(client, message):
             except Exception:
                 PIC = random.choice(PICS)
             await message.reply_photo(
-                photo=PIC,
-                caption=script.START_TXT.format(message.from_user.mention, gtxt, temp.U_NAME, temp.B_NAME),
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-                has_spoiler=True
-            )
+        photo=PIC,
+        caption=script.START_TXT.format(message.from_user.mention, gtxt, temp.U_NAME, temp.B_NAME),
+        reply_markup=reply_markup,
+        parse_mode=enums.ParseMode.HTML,
+        has_spoiler=True
+                                            )
             return
         if message.command[1].startswith("reff_"):
             try:
@@ -224,9 +224,13 @@ async def start(client, message):
             reply_markup = InlineKeyboardMarkup(buttons)
             await message.reply_photo(
                 photo=(SUBSCRIPTION),
-                caption=script.PREPLANS_TXT.format(message.from_user.mention, OWNER_UPI_ID, QR_CODE),
+                caption=script.PREPLANS_TXT.format(
+                    message.from_user.mention,
+                    OWNER_UPI_ID,
+                    QR_CODE
+                ),
                 reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
+                parse_mode=enums.ParseMode.HTML,
                 has_spoiler=True
             )
             return  
@@ -273,9 +277,9 @@ async def start(client, message):
                         photo=photo,
                         caption=caption,
                         reply_markup=reply_markup,
-                        parse_mode=enums.ParseMode.HTML
+                        parse_mode=enums.ParseMode.HTML,
                         has_spoiler=True
-                    )
+            )
                     return
 
             except Exception as e:
