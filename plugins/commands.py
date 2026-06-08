@@ -82,6 +82,7 @@ async def start(client, message):
                 caption=msg.format(message.from_user.mention, get_readable_time(TWO_VERIFY_GAP)),
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
+                has_spoiler=True
             )
             await sticker.delete()
             await asyncio.sleep(300)
@@ -135,6 +136,7 @@ async def start(client, message):
                 caption=script.START_TXT.format(message.from_user.mention, gtxt, temp.U_NAME, temp.B_NAME),
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
+                has_spoiler=True
             )
             return
 
@@ -168,6 +170,7 @@ async def start(client, message):
                 caption=script.START_TXT.format(message.from_user.mention, gtxt, temp.U_NAME, temp.B_NAME),
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
+                has_spoiler=True
             )
             return
         if message.command[1].startswith("reff_"):
@@ -224,6 +227,7 @@ async def start(client, message):
                 caption=script.PREPLANS_TXT.format(message.from_user.mention, OWNER_UPI_ID, QR_CODE),
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
+                has_spoiler=True
             )
             return  
 
@@ -270,6 +274,7 @@ async def start(client, message):
                         caption=caption,
                         reply_markup=reply_markup,
                         parse_mode=enums.ParseMode.HTML
+                        has_spoiler=True
                     )
                     return
 
