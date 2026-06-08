@@ -77,13 +77,16 @@ async def start(client, message):
                 InlineKeyboardButton("✅ ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ɢᴇᴛ ꜰɪʟᴇ ✅", url=verifiedfiles),
             ]]
             reply_markup=InlineKeyboardMarkup(btn)
-            dlt=await m.reply_photo(
-                photo=(VERIFY_IMG),
-                caption=msg.format(message.from_user.mention, get_readable_time(TWO_VERIFY_GAP)),
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-                has_spoiler=True
-            )
+            dlt = await m.reply_photo(
+    photo=(VERIFY_IMG),
+    caption=msg.format(
+        message.from_user.mention,
+        get_readable_time(TWO_VERIFY_GAP)
+    ),
+    reply_markup=reply_markup,
+    parse_mode=enums.ParseMode.HTML,
+    has_spoiler=True
+)
             await sticker.delete()
             await asyncio.sleep(300)
             await dlt.delete()
