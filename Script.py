@@ -272,7 +272,7 @@ Nᴀᴍᴇ - {}
 <blockquote>🎉 <b>ꜱᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴅᴏɴᴀᴛɪᴏɴ ᴍᴇᴛʜᴏᴅ 👇</b></blockquote>
 
 ➤ 📷 Qʀ ᴄᴏᴅᴇ → <a href='{}'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>  
-➤ 💸 ᴜᴘɪ ɪᴅ → <code>{}</code>
+➤ 💸 ᴜᴘɪ ɪᴅ → <code>mikeykunraj@fam</code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
 
 ‼️ <b>ᴍᴜꜱᴛ ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀꜰᴛᴇʀ ᴅᴏɴᴀᴛɪɴɢ.</b>"""
 
@@ -296,7 +296,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/+6JOcwOhL46U2NjM1">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/+6JOcwOhL46U2NjM1">[ ᴳᵒʲᵒメsᴀᴛᴏʀᴜシ ]</a></b>"""
+    CAPTION = """<b><a href="https://t.me/+6JOcwOhL46U2NjM1">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/New_Animes_Dubbeds_Hindi">[ ᴳᵒʲᵒメsᴀᴛᴏʀᴜシ ]</a></b>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
@@ -371,7 +371,8 @@ sʜᴏᴡɴ ɪɴ : {remaining_seconds} <i>sᴇᴄ</i>⚡️
 
 ʏᴏᴜ ᴄᴀɴ ᴘᴜʀᴄʜᴀꜱᴇ ᴘʀᴇᴍɪᴜᴍ ᴛʜʀᴏᴜɢʜ ᴜᴘɪ , ɴᴇᴛ ʙᴀɴᴋɪɴɢ.
 
-💳 ᴜᴘɪ ɪᴅ - <code>{}</code>
+<blockquote>🆔 ᴜᴘɪ ɪᴅ ➩ <code>{}</code>   [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]</blockquote>
+📸 ǫʀ ᴄᴏᴅᴇ ➩ <a href='{}'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>
 
 💢 ᴍᴜꜱᴛ ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀꜰᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.
 
